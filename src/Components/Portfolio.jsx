@@ -31,16 +31,22 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "E-Commerce Website",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This multi-page e-commerce website offers users a seamless shopping experience, including product listings, detailed product pages and shopping cart.",
+    url: "https://ecommerce-website-60032609181.development.catalystserverless.in/app/index.html",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Movie-Explorer Website",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "The Movie Explorer website allows users to search for movies, view detailed information such as the cast, genre, rating, and plot, and add favorite movies to a watchlist.",
+    url: "https://cine-vault.web.app/",
+  },
+  {
+    title: "Driving-School Website",
+    description:
+      "The Driving School website serves as an informative platform for potential learners, detailing course offerings, instructor profiles, and contact options. The design emphasizes simplicity and clarity.",
+    url: "https://driving-school-60032609181.development.catalystserverless.in/app/index.html",
   },
   {
     title: "My Resume Site",
@@ -48,12 +54,7 @@ const projectList = [
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+
 ];
 
 const Portfolio = () => {
